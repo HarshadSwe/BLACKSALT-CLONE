@@ -1,0 +1,693 @@
+@font-face {
+    font-family: "Mont-Bold";
+    src: url("./asset/images/Fonts/Mont-Bold.otf");
+}
+
+@font-face {
+    font-family: "Mont-Regular";
+    src: url("./asset/images/Fonts/Mont-Regular.otf");
+}
+
+@font-face {
+    font-family: "Myriad";
+    src: url('./asset/images/Fonts/MyriadPro-Regular.otf');
+}  
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mont-Bold";
+    overflow-x: hidden;
+}
+
+.container {
+    width:fit-content;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.header {
+    margin-top: 0%;
+    background-image: url("./asset/images/Images/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 6%;
+}
+
+.logo {
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+.nav-links {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    font-family: "Mont-Regular";
+    font-size: 18px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.home-link {
+    color: orangered;
+    margin-left: 50px;
+}
+
+.line {
+    margin-left: 55.5%;
+    height: 8%;
+}
+
+.develop-main {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Mont-Regular";
+    margin-top: 100px;
+}
+
+.develop-main h1 {
+    font-size: 90px;
+    color: white;
+}
+
+.scrool {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50%;
+    margin-top: 110px;
+}
+
+.scrool img {
+    margin-inline: -33px;
+    width: 4rem;
+}
+
+.scrool .scrool-text {
+    color: white;
+    transform: rotate(-90deg);
+    font-family: 'Mont-Regular';
+    margin-inline: -25px !important;
+    margin: 0%;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.scrool .scrool-line {
+    background-color: white;
+    width: 3px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+}
+
+.cross-line {
+    background-color: darkgray;
+    width: 1px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+}
+
+.our-clients {
+    margin-top: 0%;
+    background-image: url("./asset/images/Images/clients/bg3.png");
+    border: none;
+}
+
+.our-services {
+    background-image: url("./asset/images/Images/service-bg.png");
+    width: 100%;
+}
+
+.our-service-heading {
+    padding: 100px 130px;
+    padding-top: 200px !important;
+    padding-bottom: 60px !important;
+    padding-left: 130px !important;
+}
+
+.our-service-heading h1 {
+    color: white;
+    font-size: 80px;
+    margin: 0%;
+}
+
+.our-service-heading h2 {
+    color: rgb(155, 151, 151);
+    font-size: 30px;
+    margin: 0%;
+    font-family: "Mont-Regular";
+}
+
+.our-service-heading p {
+    color: white;
+    font-size: 30px;
+    font-family: "Mont-Regular";
+    margin: 0%;
+}
+
+.our-service-heading .we-do {
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.our-client-container {
+    padding: 100px 130px;
+}
+
+.client-heading h2 {
+    color: rgb(155, 151, 151);
+    font-size: 30px;
+    margin: 0%;
+    font-family: "Mont-Regular";
+}
+
+.client-heading h1 {
+    color: white;
+    font-size: 60px;
+    margin: 0%;
+}
+
+.client-images {
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-images img {
+    height: 120px;
+}
+
+.partners {
+    width:fit-content;
+    height: 37vh;
+}
+
+.client-arrows {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.client-arrows .first-dot {
+    color: rgb(213, 77, 28);
+}
+
+.client-arrows span {
+    color: rgb(189, 106, 16);
+    font-size: 70px;
+
+}
+
+.industries {
+    background-image: url("./asset/images/Images/industry-bg.png");
+    padding: 100px 130px;
+    padding-top: 200px !important;
+}
+
+.industries .industries-heading h2 {
+    color: rgb(155, 151, 151);
+    font-size: 30px;
+    margin: 0%;
+    font-family: "Mont-Regular";
+}
+
+.industries .industries-heading h1 {
+    color: white;
+    font-size: 60px;
+    margin: 0%;
+    padding-bottom: 60px;
+}
+
+.industry-img {
+    padding-top: 100px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    background-color: white;
+}
+
+.cards {
+    display: flex;
+    color: white;
+    gap: 30px;
+    margin: 0% !important;
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+    padding-bottom: 100px;
+}
+
+.card-1 {
+    background-color: rgb(223, 89, 16);
+    width: 20%;
+    padding: 30px 15px;
+    border-radius: 10px;
+    height: 460px;
+}
+
+.card-2 {
+    background-color: rgb(45, 42, 42);
+    width: 20%;
+    padding: 30px 15px;
+    border-radius: 10px;
+    height: 460px;
+}
+
+.card-3 {
+    background-color: rgb(223, 89, 16);
+    width: 20%;
+    padding: 45px 15px;
+    padding-bottom: 20px !important;
+    padding-top: 30px !important;
+    border-radius: 10px;
+    height: 460px;
+}
+
+.card-4 {
+    background-color: rgb(45, 42, 42);
+    width: 20%;
+    padding: 25px 15px;
+    border-radius: 10px;
+    height: 460px;
+}
+
+.card-one-head {
+    font-family: "Mont-Bold";
+    font-size: 18px;
+}
+
+.card-heading {
+    font-size: 15px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.card-content {
+    margin: 0%;
+    font-size: 18px;
+    font-family: "Mont-Regular";
+}
+
+.sub-heading-one,
+.sub-heading-two {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Mont-Regular";
+}
+
+.pointer {
+    margin-bottom: 100px !important;
+    margin-right: 3px;
+}
+
+.more {
+    margin-top: 30px;
+    margin-left: 225px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "Myriad";
+}
+
+#card-three-btn {
+    margin-top: 70px ;
+}
+
+.explore {
+    font-size: 30px;
+    color: white;
+    background-color: rgb(223, 89, 16);
+    padding: 15px 120px;
+    border: none;
+    margin-left: 38%;
+    margin-bottom: 50px;
+    font-family: "Mont-Bold";
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.hamburger-one {
+    width: 45px;
+    height: 5px;
+    background-color: white;
+    margin: 8px 0;
+}
+
+.hamburger-two {
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin: 8px 0;
+}
+
+.hamburger-three {
+    width: 20px;
+    height: 5px;
+    background-color: white;
+    margin: 8px 0;
+}
+
+.arrow-one {
+    margin-right: 20px;
+}
+
+.follow-us h4 {
+    margin-left: 40px;
+    color: rgb(67 , 66 , 66);
+}
+
+.contact-us h4 {
+    margin-left: 70px;
+    color: rgb(67, 66, 66);
+}
+
+.follow-us .socials {
+    display: flex;
+    gap: 12px;
+    opacity: 0.8;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 130px;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    font-family: "Mont-Regular";
+}
+
+.number {
+    margin-left: 60px;
+}
+
+.contact-us p {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-weight: 100;
+}
+
+.contact {
+    padding-left:250px;
+    background-color: lightgrey;
+}
+
+.industry-container {
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 20rem;
+    display: block;
+}
+
+.industry-container .inner-container {
+    width: 100%;
+}
+
+.industry-container .name {
+    font-family: "Mont-Regular";
+    font-size: 1.2rem;
+}
+
+.mobile-industry-container .name {
+    font-family: "Mont-Regular";
+    font-size: 3.5rem;
+}
+
+.product {
+    width: 20%;
+    height: 60px;
+    float: left;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.row{
+    width: 100%;
+}
+
+.img-width{
+    width: 22.5%;
+}
+
+.brown {
+    color: rgb(117, 112, 112);
+}
+
+.footer-link {
+    text-decoration:underline;
+    color: white;
+}
+
+.card-responive-img {
+    display: none;
+}
+
+.client-responsive-img {
+    display: none;
+}
+
+.mobile-industry-container {
+    display: flex;
+    color: white;
+    width: 100%;
+    height:360vh;
+    font-size: 30px;
+    font-family: "Mont-Regular";
+    display: none;
+}
+
+.mobile-industry-container .row {
+    display: block !important;
+}
+
+.our-client-mobile {
+    background-color: rgb(33, 33, 33);
+    display: none;
+    padding-top: 30px;
+}
+
+.our-client-mobile h1 {
+    color: white;
+    font-family: "Mont-Bold";
+    text-align: center;
+    font-size: 60px;
+    padding-top: 80px;
+}
+
+.our-client-mobile .top-clients , .bottom-clients {
+    display: flex;
+    justify-content:space-around;
+}
+
+.client-mobile-img {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: -50px;
+    padding-left: -50px;
+}
+
+.top-clients {
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+.bottom-clients {
+    padding-bottom: 200px;
+    padding-right: 100px;
+}
+
+.mobile-product{
+    width: 50%;
+    height: 60px;
+    float: left;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 40px;
+}
+
+.map {
+    display: flex; 
+    gap: 50px;
+}
+
+@media screen and (max-width: 768px){
+
+    .website {
+        
+    }
+
+    .container {
+        margin: -10px;
+        overflow: none;
+    }
+
+    .line, .nav-links , .scrool {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .industry-container {
+        display: none;
+    }
+
+    .header {
+        padding-top: 5%;
+        height: 140vh;
+    }
+
+    .hamburger-menu {
+       display: inline-block;
+    }
+
+    .cards {
+        display: none;
+    }
+
+    .card-responive-img {
+        display: block;
+        margin-left: 8%;
+    }
+
+    .card-responive-img img {
+        margin-bottom: 5%;
+        width: 92%;
+    }
+
+    .contact {
+        display: block;
+        padding: 0% !important;
+        font-size: 40px;
+        position: relative;
+        /* align-items: flex-start !important; */
+        align-items: center !important;
+        margin:0%;
+    }
+    
+    .contact-us .follow-us{
+        display: block;
+        align-items: center !important;
+    }
+
+
+    .our-client-container{
+        display: none;
+    }
+
+    .client-responsive-img {
+        display: block;
+    }
+
+    .contact {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+        padding-left: 150px !important;
+    }
+
+    .contact .map {
+        display: none;
+    }
+
+    .contact-us .number {
+        margin: 0%;
+        font-family: "Mont-Regular";
+        color: rgb(134, 133, 133);
+    }
+
+    .contact-us h4 {
+        font-size: 60px;
+        margin-bottom: 20px !important;
+        color: rgb(87, 86, 86) !important;
+    }
+
+    .follow-us h4{
+        font-size: 60px;
+        margin: 0;
+        margin-bottom: 20px !important;
+        font-family: "Mont-Regular";
+        color: rgb(87, 86, 86);
+    }
+
+    .contact .socials img{
+        width: 60px;
+    }
+
+    .our-client-mobile {
+        display: block;
+    }
+
+    .mobile-industry-container {
+        display: block;
+    }
+
+    .follow-us {
+        padding-top: 50px;
+    }
+
+    .our-service-heading p {
+        font-size: 50px;
+    }
+
+    .explore {
+        padding: 40px 250px !important;
+        font-size: 50px;
+        margin-left: 500px !important;
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+    }
+
+    .cross-line {
+        display: none;
+    }
+}
